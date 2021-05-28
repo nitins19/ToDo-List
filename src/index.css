@@ -85,3 +85,9 @@ deleteIcon:hover{
   background-color: transparent;
   color:crimson
 }
+ul[id="scroll"]{
+  height: 310px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
