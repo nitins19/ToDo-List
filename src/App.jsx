@@ -36,7 +36,7 @@ function App()
     <input type="text" placeholder="Add an item" onChange={inputEvent} value={item} />
     <Button className="uibut" style={button_style} onClick={listofItems} ><AddIcon style={{fontSize:'21px'}}/></Button>
     </div>
-     <ul>
+     <ul id="scroll">
     
     {totalitems.map((val,index)=>{
         
